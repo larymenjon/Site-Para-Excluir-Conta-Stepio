@@ -1,64 +1,410 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Delete Account - Stepio</title>
+  <title>Stepio | Rotina, cuidado e evolução para famílias e adultos neurodivergentes</title>
+  <meta name="description" content="Stepio é o app para organizar medicação, agenda, terapias, consultas e evolução diária de crianças e adultos neurodivergentes com uma experiência acolhedora e inteligente.">
   <link rel="icon" type="image/png" href="img/STEPIO 3.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Baloo+2:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="top-nav">
-    <nav class="menu" aria-label="Main menu">
-      <a class="active" href="index.html">Delete Account</a>
-      <a href="privacy-policy.html">Privacy Policy</a>
-      <a href="terms-of-use.html">Terms of Use</a>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header">
+    <nav class="top-nav" aria-label="Navegação principal">
+      <a class="brand" href="#topo" aria-label="Página inicial Stepio">
+        <img src="img/STEPIO 3.png" alt="Logo Stepio">
+        <span>Stepio</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mainMenu">Menu</button>
+      <ul id="mainMenu" class="menu-links">
+        <li><a href="#funciona">Como funciona</a></li>
+        <li><a href="#telas">Telas</a></li>
+        <li><a href="#planos" data-open-plans="true">Planos</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
     </nav>
   </header>
 
-  <main class="page">
-    <section class="card" aria-labelledby="title">
-      <img
-        class="logo"
-        src="img/STEPIO 3.png"
-        alt="Stepio logo"
-      >
-      <h1 id="title">Delete Account - Stepio</h1>
-      <p>
-        To request deletion of your Stepio account and associated data, please send an email to:
-      </p>
+  <main id="conteudo">
+    <section id="topo" class="hero section reveal">
+      <div class="hero-content">
+        <p class="eyebrow">Cuidado com leveza e constância</p>
+        <h1>Rotina organizada, cuidado humanizado e evolução visível todos os dias</h1>
+        <p class="hero-text">
+          O Stepio apoia cuidadores de crianças neurodivergentes e adultos neurodivergentes com uma jornada simples para medicação, agenda, terapias, relatórios e acompanhamento real da evolução.
+        </p>
+        <div class="cta-group">
+          <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.stepio.app&hl=en" target="_blank" rel="noopener noreferrer">Baixar app</a>
+          <button class="btn btn-secondary open-plans-btn" type="button" data-open-plans="true">Ver planos</button>
+          <a class="btn btn-ghost" href="#telas">Conhecer funcionalidades</a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <article class="phone-mockup hero-phone tilt-card">
+          <p class="mockup-title">Resumo do dia</p>
+          <ul>
+            <li>08:00 - Medicação: Risperidona</li>
+            <li>14:30 - Terapia ocupacional</li>
+            <li>20:00 - Registro diário</li>
+          </ul>
+          <p class="quote">"Cada pequena rotina cria grandes avanços."</p>
+        </article>
+      </div>
+    </section>
 
-      <p class="email-line">
-        <a id="emailLink" href="mailto:larymenjon.dev@gmail.com?subject=Delete%20Stepio%20Account">
-          larymenjon.dev@gmail.com
-        </a>
-      </p>
+    <section id="funciona" class="section reveal">
+      <div class="section-head">
+        <h2>Como funciona</h2>
+        <p>Três passos para começar com clareza e manter tudo sob controle.</p>
+      </div>
+      <div class="steps-grid">
+        <article class="card step-card">
+          <span class="step-number">1</span>
+          <h3>Cadastro e login</h3>
+          <p>Entre com email/senha ou Google e selecione idioma PT/EN para iniciar sua jornada.</p>
+        </article>
+        <article class="card step-card">
+          <span class="step-number">2</span>
+          <h3>Onboarding guiado</h3>
+          <p>Siga três etapas claras para configurar perfil, contexto clínico e preferências.</p>
+        </article>
+        <article class="card step-card">
+          <span class="step-number">3</span>
+          <h3>Rotina diária inteligente</h3>
+          <p>Organize medicação, agenda, terapias e relatórios com lembretes e visão de evolução.</p>
+        </article>
+      </div>
+    </section>
 
-      <p>
-        with the subject:
-        <strong>"Delete Stepio Account"</strong>.
-      </p>
+    <section id="telas" class="section reveal">
+      <div class="section-head">
+        <h2>Telas do app</h2>
+        <p>Visão completa das telas e funcionalidades reais do Stepio.</p>
+      </div>
 
-      <p>
-        We will delete your data within <strong>7 days</strong>.
-      </p>
+      <div class="screens-grid">
+        <article class="screen card reveal">
+          <h3>Login e cadastro</h3>
+          <div class="phone-mockup tilt-card">
+            <ul>
+              <li>Email e senha</li>
+              <li>Entrar com Google</li>
+              <li>Idioma PT-BR/EN</li>
+              <li>Escolha da jornada: cuidador ou adulto</li>
+            </ul>
+          </div>
+        </article>
 
-      <p>
-        For app purchases, refund requests are accepted within <strong>7 days</strong> of purchase. After this period, no refund will be provided.
-      </p>
+        <article class="screen card reveal">
+          <h3>Onboarding (3 etapas)</h3>
+          <div class="phone-mockup tilt-card">
+            <ol>
+              <li>Boas-vindas e resumo de recursos</li>
+              <li>Dados do perfil (nome, nascimento e gênero no modo cuidador)</li>
+              <li>Condições e comorbidades, inclusive personalizadas</li>
+            </ol>
+          </div>
+        </article>
 
-      <p class="note">
-        We are sorry to see you go. Your security is our priority.
-      </p>
+        <article class="screen card reveal">
+          <h3>Home</h3>
+          <div class="phone-mockup tilt-card">
+            <ul>
+              <li>Resumo do dia: próxima medicação, próximo compromisso, registro diário</li>
+              <li>Cartão hero com idade/meses</li>
+              <li>Frase motivacional diária</li>
+              <li>Agenda da semana e status de medicação</li>
+              <li>Plano inteligente: metas, trilha semanal e resumo do mês</li>
+              <li>Marcos de evolução</li>
+              <li>Ficha médica rápida (modal) e registro diário (modal)</li>
+            </ul>
+          </div>
+        </article>
 
-      <button id="copyButton" type="button">Copy email and subject</button>
-      <p id="feedback" class="feedback" aria-live="polite"></p>
+        <article class="screen card reveal">
+          <h3>Medicação</h3>
+          <div class="phone-mockup tilt-card">
+            <ul>
+              <li>CRUD completo de remédios</li>
+              <li>Tipo: xarope, comprimido, gotas ou pomada</li>
+              <li>Dosagem, frequência e horário inicial</li>
+              <li>Horários extras</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="screen card reveal">
+          <h3>Agenda</h3>
+          <div class="phone-mockup tilt-card">
+            <ul>
+              <li>Calendário mensal</li>
+              <li>Eventos por dia</li>
+              <li>CRUD de eventos: terapia, médico e escola</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="screen card reveal">
+          <h3>Terapias e consultas</h3>
+          <div class="phone-mockup tilt-card">
+            <ul>
+              <li>Lista de próximas e passadas</li>
+              <li>Cadastro rápido de terapia/consulta</li>
+              <li>Free: até 5 por mês</li>
+              <li>Ao atingir o limite, redirecionamento para Pro</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="screen card reveal">
+          <h3>Conta</h3>
+          <div class="phone-mockup tilt-card">
+            <ul>
+              <li>Editar perfil</li>
+              <li>Notificações de compromissos e remédios</li>
+              <li>Perfis de criança: trocar perfil e adicionar no Pro</li>
+              <li>Ficha médica da criança: dados clínicos e documentos</li>
+              <li>Comorbidades</li>
+              <li>Assinatura: gerenciar, sincronizar, FAQ e cancelamento</li>
+              <li>Exportar relatório mensal em PDF (Pro)</li>
+              <li>Sair da conta</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="screen card reveal">
+          <h3>Perfil médico completo</h3>
+          <div class="phone-mockup tilt-card">
+            <ul>
+              <li>Diagnósticos e comorbidades</li>
+              <li>Alergias críticas</li>
+              <li>Medicações atuais</li>
+              <li>Informações rápidas: SUS, documento, sangue, plano e mais</li>
+              <li>Histórico médico</li>
+              <li>Exportar PDF médico</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="screen card reveal">
+          <h3>Planos</h3>
+          <div class="phone-mockup tilt-card">
+            <ul>
+              <li>Comparação Free vs Pro</li>
+              <li>Plano Pro mensal por R$ 29,90</li>
+              <li>Botões para assinar e sincronizar assinatura</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="screen card reveal">
+          <h3>Pagamento</h3>
+          <div class="phone-mockup tilt-card">
+            <ul>
+              <li>Tela de sucesso no pagamento</li>
+              <li>Tela de cancelamento</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="screen card reveal">
+          <h3>Navegação inferior fixa</h3>
+          <div class="phone-mockup tilt-card">
+            <p>Início | Remédios | Agenda | Terapias | Conta</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section highlight reveal">
+      <div class="section-head">
+        <h2>Funcionalidades-chave</h2>
+      </div>
+      <div class="feature-grid">
+        <article class="card"><h3>Lembretes inteligentes</h3><p>Alertas pontuais para medicação e compromissos.</p></article>
+        <article class="card"><h3>Registro diário</h3><p>Humor, alimentação, sono e crises em um fluxo rápido.</p></article>
+        <article class="card"><h3>Plano inteligente</h3><p>Metas, trilha semanal e visão de evolução mensal.</p></article>
+        <article class="card"><h3>Marcos de evolução</h3><p>Acompanhe conquistas e mudanças de rotina com clareza.</p></article>
+        <article class="card"><h3>Exportação em PDF</h3><p>Relatórios mensais e perfil médico prontos para compartilhar.</p></article>
+        <article class="card"><h3>Suporte bilíngue e 2 jornadas</h3><p>PT-BR/EN com experiência para cuidador e adulto.</p></article>
+      </div>
+    </section>
+
+    <section id="planos" class="section reveal">
+      <div class="section-head">
+        <h2>Comparativo Free x Pro</h2>
+      </div>
+      <div class="plan-grid">
+        <article class="card plan-card">
+          <h3>Free</h3>
+          <ul>
+            <li>Recursos essenciais da rotina</li>
+            <li>1 perfil</li>
+            <li>Limite de terapias e consultas</li>
+          </ul>
+        </article>
+        <article class="card plan-card featured">
+          <p class="badge">Mais completo</p>
+          <h3>Pro</h3>
+          <ul>
+            <li>Terapias e consultas ilimitadas</li>
+            <li>Múltiplos perfis</li>
+            <li>Plano inteligente completo</li>
+            <li>Exportações em PDF</li>
+            <li>Histórico avançado</li>
+          </ul>
+        </article>
+      </div>
+      <div class="price-row">
+        <p><strong>Plano Pro mensal: R$ 29,90 por mês.</strong></p>
+        <div class="cta-group">
+          <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.stepio.app&hl=en" target="_blank" rel="noopener noreferrer">Assinar Pro</a>
+          <a class="btn btn-secondary" href="#cta-final">Sincronizar assinatura</a>
+          <button class="btn btn-ghost open-plans-btn" type="button" data-open-plans="true">Comparar Free x Pro</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="section-head">
+        <h2>Prova social e confiança</h2>
+      </div>
+      <div class="testimonials-grid">
+        <article class="card">
+          <p>"Finalmente consegui centralizar medicação e terapias sem planilhas espalhadas."</p>
+          <strong>Marina, mãe atípica</strong>
+        </article>
+        <article class="card">
+          <p>"Uso no meu dia a dia para acompanhar meu sono, humor e consultas. Ficou muito mais leve."</p>
+          <strong>Rafael, adulto neurodivergente</strong>
+        </article>
+        <article class="card">
+          <p>"Os relatórios em PDF ajudaram muito no acompanhamento com a equipe clínica."</p>
+          <strong>Camila, cuidadora</strong>
+        </article>
+      </div>
+      <div class="trust-badges" role="list" aria-label="Selos de confiança">
+        <span role="listitem" class="badge-pill">Segurança de dados</span>
+        <span role="listitem" class="badge-pill">Praticidade no dia a dia</span>
+        <span role="listitem" class="badge-pill">Cuidado humanizado</span>
+      </div>
+    </section>
+
+    <section id="faq" class="section reveal">
+      <div class="section-head">
+        <h2>FAQ</h2>
+      </div>
+      <div class="faq-list">
+        <article class="faq-item card">
+          <h3>
+            <button class="faq-question" type="button" aria-expanded="false">Como funciona a assinatura Pro?</button>
+          </h3>
+          <div class="faq-answer" hidden>
+            <p>Você assina o Pro mensal por R$ 29,90 e libera recursos avançados como múltiplos perfis e exportações.</p>
+          </div>
+        </article>
+        <article class="faq-item card">
+          <h3>
+            <button class="faq-question" type="button" aria-expanded="false">Posso cancelar quando quiser?</button>
+          </h3>
+          <div class="faq-answer" hidden>
+            <p>Sim. O gerenciamento e o cancelamento ficam disponíveis na área de assinatura da conta.</p>
+          </div>
+        </article>
+        <article class="faq-item card">
+          <h3>
+            <button class="faq-question" type="button" aria-expanded="false">Como sincronizo minha assinatura?</button>
+          </h3>
+          <div class="faq-answer" hidden>
+            <p>Na tela de assinatura, use o botão de sincronização para atualizar o status da sua conta Pro.</p>
+          </div>
+        </article>
+        <article class="faq-item card">
+          <h3>
+            <button class="faq-question" type="button" aria-expanded="false">Troquei de celular. Vou perder meus dados?</button>
+          </h3>
+          <div class="faq-answer" hidden>
+            <p>Não. Basta entrar com sua conta para recuperar seus dados e continuar de onde parou.</p>
+          </div>
+        </article>
+        <article class="faq-item card">
+          <h3>
+            <button class="faq-question" type="button" aria-expanded="false">Esqueci meu acesso. O que faço?</button>
+          </h3>
+          <div class="faq-answer" hidden>
+            <p>Use a recuperação de acesso na tela de login para redefinir credenciais e retomar o uso.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="cta-final" class="section final-cta reveal">
+      <h2>Comece hoje com o Stepio</h2>
+      <p>Baixe o app e transforme rotina em cuidado consistente, com mais clareza para cada etapa.</p>
+      <div class="cta-group">
+        <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.stepio.app&hl=en" target="_blank" rel="noopener noreferrer">Baixar app</a>
+        <button class="btn btn-secondary open-plans-btn" type="button" data-open-plans="true">Ver planos</button>
+      </div>
     </section>
   </main>
 
-  <footer>
+  <div id="plansOverlay" class="plans-overlay" hidden>
+    <section class="plans-modal" role="dialog" aria-modal="true" aria-labelledby="plansModalTitle">
+      <button id="closePlansModal" class="plans-close" type="button" aria-label="Fechar comparação de planos">×</button>
+      <p class="eyebrow">Planos Stepio</p>
+      <h2 id="plansModalTitle">Escolha o plano ideal para sua rotina</h2>
+      <p class="plans-subtitle">Comparativo rápido e objetivo para decidir em segundos.</p>
+      <div class="plans-modal-grid">
+        <article class="card plan-card">
+          <h3>Free</h3>
+          <p class="plan-price">R$ 0/mês</p>
+          <ul>
+            <li>Recursos essenciais</li>
+            <li>1 perfil</li>
+            <li>Até 5 terapias/consultas por mês</li>
+          </ul>
+        </article>
+        <article class="card plan-card featured">
+          <p class="badge">Recomendado</p>
+          <h3>Pro</h3>
+          <p class="plan-price">R$ 29,90/mês</p>
+          <ul>
+            <li>Terapias e consultas ilimitadas</li>
+            <li>Múltiplos perfis</li>
+            <li>Plano inteligente completo</li>
+            <li>Exportações em PDF e histórico avançado</li>
+          </ul>
+        </article>
+      </div>
+      <div class="cta-group">
+        <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.stepio.app&hl=en" target="_blank" rel="noopener noreferrer">Baixar e assinar</a>
+        <button class="btn btn-ghost" id="closePlansModalSecondary" type="button">Fechar</button>
+      </div>
+    </section>
+  </div>
+
+  <footer class="site-footer">
     <small>&copy; <span id="year"></span> Stepio</small>
+    <nav aria-label="Links do rodapé">
+      <a href="privacy-policy.html">Política de privacidade</a>
+      <a href="terms-of-use.html">Termos</a>
+      <a href="mailto:larymenjon.dev@gmail.com?subject=Suporte%20Stepio">Suporte</a>
+      <a href="mailto:larymenjon.dev@gmail.com?subject=Contato%20Stepio">Contato</a>
+    </nav>
   </footer>
+
+  <nav class="bottom-demo-nav" aria-label="Navegação inferior fixa de demonstração">
+    <a href="#">Início</a>
+    <a href="#">Remédios</a>
+    <a href="#">Agenda</a>
+    <a href="#">Terapias</a>
+    <a href="#">Conta</a>
+  </nav>
 
   <script src="script.js"></script>
 </body>
